@@ -10,10 +10,7 @@ export default {
     fontFamily: 'Space Mono',
     fontWeight: 600,
   },
-  h2: {
-    fontFamily: 'Victor Mono',
-    fontWeight: 600,
-  },
+
   // custom colors
   colors: {
     text: '#34434b',

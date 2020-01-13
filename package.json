@@ -21,7 +21,7 @@
   "devDependencies": {
     "file-loader": "3.0.1",
     "husky": "4.0.7",
-    "mdx-deck": "1.10.2",
+    "mdx-deck": "3.0.13",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1"
   }

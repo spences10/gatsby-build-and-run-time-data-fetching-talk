@@ -12,7 +12,7 @@ import {
 } from "./src/index";
 
 <Head>
-  <title>Gatsby data Loading</title>
+  <title>Gatsby Data Fetching</title>
   <link
     href="https://fonts.googleapis.com/css?family=Arvo|Space+Mono"
     rel="stylesheet"
@@ -33,11 +33,72 @@ export default LayoutNoFooter;
 
 # _Scott Spence_
 
+###### est. 2018
+
+```notes
+- Been web a developer since 2018
+
+- Analyst Developer 10 years previously
+
+- Large financial organisations
+
+- I'm married
+
+- Wife and Daughter
+```
+
+---
+
+export default FullScreenImage;
+
+<BGImage
+  src={require("file-loader!./images/family2.jpg")}
+  alt="Boris, Leo, Darcy"
+/>
+
+```notes
+- That's not them
+
+- This is just for illustration purposes
+
+- If you had a hard time visualising what a family looked like
+```
+
+---
+
+export default FullScreenImage;
+
+<BigImage
+  src={require("file-loader!./images/family1.webp")}
+  alt="Boris, Leo, Darcy"
+/>
+
+```notes
+- That's not them either
+
+- This is just for illustration purposes
+
+- If you had a hard time visualising what a family looked like
+```
+
+---
+
+export default FullScreenImage;
+
+<BGImage
+  src={require("file-loader!./images/cat-dad.jpg")}
+  alt="Boris, Leo, Darcy"
+/>
+
+```notes
+- I'm a cat dad
+```
+
 ---
 
 export default LayoutNoFooter;
 
-<img
+<BigImage
   src={require("file-loader!./images/karma-logo.svg")}
   alt="karmarama logo"
 />

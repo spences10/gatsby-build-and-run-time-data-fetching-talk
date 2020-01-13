@@ -1,5 +1,6 @@
 {
-  "name": "gatsby-and-data",
+  "name": "gatsby-build-and-run-time-data-fetching-talk",
+  "description": "Slides for gatsby build and run time data fetching talk.",
   "version": "0.0.1",
   "private": true,
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",

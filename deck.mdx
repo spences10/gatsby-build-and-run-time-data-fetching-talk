@@ -1,5 +1,164 @@
-## yo!
+export { default as theme } from "./src/index";
+
+import { Head, Appear } from "mdx-deck";
+import { Split, Invert } from "mdx-deck/layouts";
+
+import {
+  FullScreenImage,
+  LayoutNoFooter,
+  Layout,
+  BGImage,
+  BigImage
+} from "./src/index";
+
+<Head>
+  <title>Gatsby data Loading</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Arvo|Space+Mono"
+    rel="stylesheet"
+  />
+  <link
+    href={require("file-loader!./static/favicon.svg")}
+    rel="shortcut icon"
+  />
+</Head>
+
+export default Layout;
+
+# _Gatsby data loading_
 
 ---
 
-yo yo!
+export default LayoutNoFooter;
+
+# _Scott Spence_
+
+---
+
+export default LayoutNoFooter;
+
+<img
+  src={require("file-loader!./images/karma-logo.svg")}
+  alt="karmarama logo"
+/>
+
+---
+
+export default Invert;
+
+# Warning!
+
+---
+
+export default LayoutNoFooter;
+
+# Excessive use
+
+# of gif's
+
+# memes and emoji
+
+---
+
+# Poll 💈
+
+```notes
+- this could well determine the rest of the talk
+```
+
+---
+
+export default Layout;
+
+# There are three main ways to get data into a Gatsby site.
+
+---
+
+export default Layout;
+
+# Build time
+
+<pre>yarn gatsby build</pre>
+
+```notes
+- Build time</h4>
+
+- At build time using the Gatsby data layer.</li>
+```
+
+---
+
+export default Layout;
+
+# At build time outside of the data layer, using unstructured data.
+
+```notes
+- Build time, outside data layer.
+
+- Learn more about using unstructured data in Gatsby.
+```
+
+---
+
+export default Layout;
+
+# ~~At build time outside of the data layer, using unstructured data.~~
+
+```notes
+- Build time, outside data layer.
+
+- Learn more about using unstructured data in Gatsby.
+```
+
+---
+
+export default Layout;
+
+# At run time, fetching from the client.
+
+---
+
+export default Layout;
+
+# 🧐
+
+```notes
+- Let's take a look
+
+- Gatsby Default Starter
+
+- gatsby-source-graphql to fetch data at build time
+
+- we're using the Rick and Morty GraphQL endpoint for this one
+
+- for run time data fetching we're going to need axios
+```
+
+---
+
+export default Layout;
+
+# Slides
+
+## [ss10.dev/gatsbyanddata](https://ss10.dev/gatsbyanddata)
+
+---
+
+export default Layout;
+
+<img
+  style={{ borderRadius: "50%", height: "20rem" }}
+  src={require("file-loader!./images/spencee.png")}
+  alt="scott face"
+/>
+
+# [ss10.dev/git](https://ss10.dev/git)
+
+---
+
+export default FullScreenImage;
+
+<BGImage
+  src={require("file-loader!./images/t.hanks.gif")}
+  alt="tom hanks waiving"
+/>

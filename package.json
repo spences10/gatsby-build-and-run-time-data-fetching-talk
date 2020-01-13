@@ -1,0 +1,18 @@
+{
+  "name": "gatsby-and-data",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.mdx -p 9191 -o",
+    "build": "mdx-deck build deck.mdx && mv dist public",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "image": "mdx-deck screenshot deck.mdx",
+    "help": "mdx-deck",
+    "format": "pretty-quick"
+  },
+  "devDependencies": {
+    "mdx-deck": "3.0.13"
+  }
+}

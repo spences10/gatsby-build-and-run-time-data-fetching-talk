@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const Wrapper = styled.main`
   width: 100vw;
@@ -9,6 +9,8 @@ const Wrapper = styled.main`
   flex-direction: row;
   justify-content: center;
   position: relative;
-`;
+`
 
-export const FullScreenImage = ({ children }) => <Wrapper>{children}</Wrapper>;
+export const FullScreenImage = ({ children }) => (
+  <Wrapper>{children}</Wrapper>
+)

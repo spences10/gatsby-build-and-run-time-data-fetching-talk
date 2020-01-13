@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 // why can't I use styled(OtherComponent) here?
 const Wrapper = styled.main`
@@ -11,6 +11,8 @@ const Wrapper = styled.main`
   justify-content: center;
   position: relative;
   border: solid 0.75rem #1b2341;
-`;
+`
 
-export const LayoutNoFooter = ({ children }) => <Wrapper>{children}</Wrapper>;
+export const LayoutNoFooter = ({ children }) => (
+  <Wrapper>{children}</Wrapper>
+)

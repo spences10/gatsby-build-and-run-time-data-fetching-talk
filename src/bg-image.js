@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const IMG = styled.img`
   width: 100vw;
@@ -8,5 +8,5 @@ const IMG = styled.img`
   z-index: -1;
   top: 50%;
   transform: translateY(-50%);
-`;
-export const BGImage = ({ src }) => <IMG src={src} />;
+`
+export const BGImage = ({ src }) => <IMG src={src} />

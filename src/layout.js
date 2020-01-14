@@ -26,7 +26,7 @@ export const Layout = ({ children }) => (
   <Fragment>
     <Wrapper>{children}</Wrapper>
     <Footer>
-      <span>Gatsby and data</span>
+      <span>Gatsby Data Fetching</span>
       <span>
         <a
           href="https://twitter.com/spences10"

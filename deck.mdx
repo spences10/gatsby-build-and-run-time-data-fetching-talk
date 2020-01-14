@@ -29,6 +29,34 @@ export default Layout
 
 # 🐶
 
+```notes
+- I was going to call it...
+```
+
+---
+
+export default LayoutNoFooter
+
+# Build Time and Client Runtime Data Fetching
+
+# in Gatsby
+
+```notes
+- bit of a mouthful tho, right?
+```
+
+---
+
+export default Layout
+
+# _Gatsby Data Fetching_
+
+# 🐶
+
+```notes
+- before that a little bit about me
+```
+
 ---
 
 export default LayoutNoFooter
@@ -63,7 +91,7 @@ export default FullScreenImage
 
 - This is just for illustration purposes
 
-- If you had a hard time visualising what a family looked like
+- That's if you had a hard time visualising what a family looked like
 ```
 
 ---
@@ -78,7 +106,9 @@ export default FullScreenImage
 ```notes
 - That's not them either
 
-- Cheap gags out of the way
+- Ok, cheap gags out of the way now
+
+- Another thing though...
 ```
 
 ---
@@ -112,6 +142,10 @@ export default LayoutNoFooter
 
 - BT, EDF
 
+- using Gatsby in production
+
+- they would probably make good case studies
+
 - City to Sea
 
 - Aberdeen Standard Investments - asi.style
@@ -135,10 +169,66 @@ export default LayoutNoFooter
 
 ---
 
+export default Layout
+
 # Poll 💈
 
 ```notes
 - this could well determine the rest of the talk
+
+- it's the same talk regardless
+
+- who uses Gatsby at work
+
+- who gets data from an API to populate their Gatsby apps
+
+- who has heard of the term the content mesh
+```
+
+---
+
+export default Layout
+
+# Data in Gatsby
+
+```notes
+- it's already there
+
+- depending on how you get your dat in there to begin with
+```
+
+---
+
+export default Layout
+
+# Content Mesh
+
+```notes
+- In some ways it's like a compiler for your web site
+
+- It allows you to pull in data from various sources
+
+- CMS data, APIS and Markdown
+
+- All pre compiled and on the server
+
+- What happens when that data needs to be updated
+```
+
+---
+
+export default Layout
+
+# APIs
+
+<Appear>
+  <h1>😋</h1>
+</Appear>
+
+```notes
+- I'm going to be going over getting data not in the gatsby file system
+
+- There's a few ways to get data into Gatsby
 ```
 
 ---
@@ -155,12 +245,14 @@ export default Layout
 
 # Build time
 
-<pre>yarn gatsby build</pre>
+using the Gatsby data layer.
 
 ```notes
-- Build time</h4>
+- Build time
 
-- At build time using the Gatsby data layer.</li>
+- At build time using the Gatsby data layer.
+
+- Use the gatsby-source-graphql to connect to an arbitrary GraphQL API
 ```
 
 ---
@@ -175,20 +267,8 @@ outside of the data layer, using unstructured data.
 - Build time, outside data layer.
 
 - Learn more about using unstructured data in Gatsby.
-```
 
----
-
-export default Layout
-
-# ~~At build time~~
-
-~~outside of the data layer, using unstructured data.~~
-
-```notes
-- Build time, outside data layer.
-
-- Learn more about using unstructured data in Gatsby.
+- gatsby-node example for Coinlore
 ```
 
 ---
@@ -198,6 +278,10 @@ export default Layout
 # At run time
 
 fetching from the client.
+
+```notes
+- Spotify API
+```
 
 ---
 
@@ -215,6 +299,10 @@ export default Layout
 - we're using the Rick and Morty GraphQL endpoint for this one
 
 - for run time data fetching we're going to need axios
+
+- here's a Spotify GraphQL endpoint
+
+- Coinlore data
 ```
 
 ---

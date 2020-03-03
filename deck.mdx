@@ -30,6 +30,8 @@ export default Layout
 # 🐶
 
 ```notes
+- I'm going to talk about Data Fetching in Gatsby
+
 - I was going to call it...
 ```
 
@@ -41,6 +43,8 @@ export default LayoutNoFooter
 
 ```notes
 - bit of a mouthful tho, right?
+
+- so let's stick with...
 ```
 
 ---
@@ -64,15 +68,15 @@ export default LayoutNoFooter
 ###### est. 2018
 
 ```notes
-- Been web a developer since 2018
+- Been professional web a developer since 2018
 
 - Analyst Developer 10 years previously
 
-- Large financial organisations
+- Large financial organisations Braclays, Fidelity and Deloitte
 
 - I'm married
 
-- Wife and Daughter
+- Wife and Daughter...
 ```
 
 ---
@@ -81,7 +85,7 @@ export default FullScreenImage
 
 <BGImage
   src={require('file-loader!./images/family2.jpg')}
-  alt="Boris, Leo, Darcy"
+  alt="Shutter stock family photo"
 />
 
 ```notes
@@ -98,7 +102,11 @@ export default FullScreenImage
 />
 
 ```notes
-- I'm a cat dad
+- I'm a cat dad...
+
+- That's Boris, Leo and Darcy
+
+- Ok, ice breakers out of the way
 ```
 
 ---
@@ -117,17 +125,9 @@ export default LayoutNoFooter
 
 - Creative Products
 
-- BT, EDF, SSE
+- Working with clients like, Tescos, Sainsburys, BT, EDF, SSE
 
-- We're using Gatsby in production
-
-- they would probably make good case studies
-
-- City to Sea, you may have seen adverts in the cinema for it.
-
-- Aberdeen Standard Investments - asi.style
-
-- both of which I should write up a case study on
+- We've used Gatsby for several projects
 ```
 
 ---
@@ -136,11 +136,41 @@ export default Layout
 
 # [beagoodasshole.com](https://beagoodasshole.com)
 
+```notes
+- City to Sea, you may have seen adverts in the cinema for it.
+
+- yes that really is the url
+
+- you can also use the British spelling too
+```
+
 ---
 
 export default Layout
 
 # [asi.style](https://asi.style)
+
+```notes
+- Aberdeen Standard Investments - asi.style
+
+- both of which I should write up a case study on
+
+- also, we're hiring!
+```
+
+---
+
+# We're hiring!
+
+<a href="" rel="noopener noreferrer">
+  https://apply.workable.com/karmarama/
+</a>
+
+###### Only senior roles tho! 🙃
+
+```notes
+- Ok let's get started
+```
 
 ---
 
@@ -169,11 +199,28 @@ export default Layout
 
 - it's the same talk regardless
 
-- who uses Gatsby at work
+- Anyone use Gatsby at work?
 
-- who gets data from an API to populate their Gatsby projects
+- Anyone use an API to populate their Gatsby projects
 
 - who has heard of the term the content mesh
+```
+
+---
+
+export default FullScreenImage
+
+<BGImage
+  src={require('file-loader!./images/modular-cms-architecture.png')}
+  alt="Content mesh diagram"
+/>
+
+```notes
+- diagram taken from the Gatsby blog post by Sam Bhagwat
+
+- Rather than the classic monolith
+
+- Gatsby will pull in only the content that is needed
 ```
 
 ---
@@ -183,7 +230,11 @@ export default Layout
 # Data in Gatsby
 
 ```notes
-- it's already there, for pages and assets with source plugin gatsby-source-filesystem
+- I'm going to focus on Gatsby, as that's the title of the talk 😂
+
+- The Gatsby CLI is awesome, sources all the project data
+
+- Pages and local assets loaded with source plugin gatsby-source-filesystem
 
 - depending on how you get your data in there to begin with
 ```
@@ -313,7 +364,9 @@ export default Layout
 ```notes
 - Let's take a look
 
-- Gatsby Default Starter
+- Using the Gatsby Default Starter here
+
+- GraphiQL and the data collated there for use in development
 
 - gatsby-source-graphql to fetch data at build time
 
